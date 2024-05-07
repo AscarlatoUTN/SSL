@@ -7,6 +7,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-Wall",
+                "-std=c2x",
+                "-pedantic-errors",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
