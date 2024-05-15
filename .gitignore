@@ -1,0 +1,7 @@
+.gitignore
+
+# Executables
+*.exe
+
+# Debug files
+*.vscode/
