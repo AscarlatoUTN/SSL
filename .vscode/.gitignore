@@ -2,4 +2,4 @@
 *.exe
 
 # Debug files
-.vscodea/
+.vscode/
