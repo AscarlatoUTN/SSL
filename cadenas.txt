@@ -1,0 +1,25 @@
+1. 
+    V = {-, +, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+2. 
+    a. abc12abc4m
+    b. 1212124m4m
+    c. cbam4m4
+3. 
+    (ab³)³ != ((ab)³)³
+    ab³ab³ab³ != (ab)³(ab)³(ab)³
+    abbb abbb abbb != ababab ababab ababab
+4.
+    a. Si --> n = 1 ^ k = 2
+    b. No
+    c. Si --> n = 0 ^ k = 0
+    d. Si --> n = 5 ^ k = 0
+    e. No
+    f. Si --> m = par ^ n = par
+    g. Si --> m = impar ^ n = par
+    h. Si --> m = impar ^ n = par
+    i. Si --> m = par ^ n = par
+    j. No
+    k. No
+    l. Si --> m = par ^ n = par ^ n = 1 ^ k = 2
+5.
+    {Ɛ, a, aba, aa}

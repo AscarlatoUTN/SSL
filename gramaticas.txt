@@ -1,0 +1,95 @@
+1.
+    S --> aT
+    T --> aU | b
+    U --> aV | b
+    V --> b
+2.
+    S --> Ɛ | aT
+    T --> b | aU
+    U --> bV
+    V --> b
+3.
+    S --> aT
+    T --> aU
+    U --> bU | cV
+    V --> Ɛ | cV
+4.
+    S --> 0T
+    T --> xU | XU
+    U --> 0U | 1U | 2U | 3U | 4U | 5U | 6U | 7U | 8U | 9U | aU | bU | cU | dU | eU | fU | AU | BU | CU | DU | EU | FU | Ɛ
+5.
+    S --> 0T
+    T --> 0T | 1T | 2T | 3T | 4T | 5T | 6T | 7T | uU | lV
+    U --> l | Ɛ
+    V --> u | Ɛ
+6.
+    S --> Tb
+    T --> aTb | Ɛ
+7.
+    S --> aT
+    T --> aTb | Ɛ
+8.
+    S --> aSa | bSb | c
+9.
+    S --> aaaTbbb
+    T --> aaTb | Ɛ
+10.
+    S --> aSd | abTcd
+    T --> bTc | Ɛ
+13.
+    S --> aT
+    T --> bT | c
+14.
+    S --> #T
+    T --> aT | bU
+    U --> bU | #
+15.
+    S --> #T
+    T --> aT | bU
+    U --> bV
+    V --> bV | Ɛ
+16.
+    S --> aT
+    T --> aU | bV | Ɛ
+    U --> bV | Ɛ
+    V --> b | Ɛ
+17.
+    a. 
+        S --> aT | bT | cT | Ɛ
+        T --> aS | bS | cS
+    b.
+        S --> aT
+        T --> aT | bT | bU | cT
+        U --> b
+18.
+    a.
+        S --> AT | Ɛ
+        T --> AS
+        A --> a | b | c
+    b.
+        S --> aT
+        T --> AT | bU
+        U --> b
+        A --> a | b | c
+19.
+    S --> LS
+    T --> LT | NT | L | Ɛ
+    L --> a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z
+    N --> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+20.
+    S --> AT
+    T --> 0U | AU
+    U --> 0U | AS
+    A --> 1 | 2 | 3 | 4 | 5 | 6 | 7
+21.
+    S --> ZT
+    T --> ZT | NT | Ɛ
+    Z --> L | _
+    L --> a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
+    N --> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+22.
+    S --> bT
+    T --> aTb | Ɛ
+23.
+    S --> abS | abT
+    T --> cdT | Ɛ

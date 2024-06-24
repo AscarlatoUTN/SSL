@@ -3,6 +3,3 @@
 
 # Debug files
 .vscode/
-
-# Ignore .gitignore
-.gitignore
