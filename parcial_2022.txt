@@ -1,0 +1,26 @@
+1.
+    S --> bT
+    T --> aU | b
+    U --> cV
+    V --> b
+2.
+    -0 --> b --> 1 
+                    --> b --> +2
+                    --> a --> 3 --> c --> 4 --> b --> +2
+      |  A  |  B  |  C
+   -0 |  -  |  1  |  -
+    1 |  3  |  2  |  -
+    2 |  -  |  -  |  -
+    3 |  -  |  -  |  4
+   +4 |  -  |  2  |  -
+3.
+    S --> aT
+    T --> aTddd | bUccc
+    U --> bUcc | Ɛ
+4.
+    A1: [0-9]*\.[0-9] | [0-9]\.[0-9]* | [0-9]+\.[0-9]+
+    A2: [0-9]*\.[0-9]+ | [0-9]+\.[0-9]*
+5.
+    a. 38 --> 43
+    b. Toda la ejecucion de PROGRAMA.
+    c. No, ya que sus declaraciones se realizan en diferentes ámbitos.
