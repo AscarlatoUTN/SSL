@@ -1,0 +1,21 @@
+1.
+    S --> aT
+    T --> bT | bU
+    U --> c | Ɛ
+2.
+    -0 --> a --> 1(b ciclo) --> b --> +2 --> c --> +3
+      |  A |   B   | C
+    0 |  1 |   -   | -
+    1 |  - | {1,2} | -
+    2 |  - |   -   | 3
+    3 |  - |   -   | -
+3.
+    S --> aT
+    T --> aaTd | Ucc
+    U --> bbUc | Ɛ
+4.
+    [0-9a-z]+(\.[0-9a-z]+)*
+5.
+    a. 52 --> 67
+    b. Hasta que termine el do while
+    c. No, no hay problema
