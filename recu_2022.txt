@@ -1,0 +1,19 @@
+1.
+    S --> aT
+    T --> dU | hU
+    U --> bU | Ɛ
+2.
+    -0 --> a --> 1 --> d, h --> +2(b ciclo)
+      |  A |   D   | H
+   -0 |  1 |   -   | -
+    1 |  - |   2   | 2
+   +2 |  - |   -   | -
+3.
+    S --> aaaSb | bcTddd
+    T --> cTdd | Ɛ
+4.
+    ([a-zA-Z] | \. | \-){6, 20}
+5.
+    a. 101 --> 106
+    b. Durante toda la ejecucion del programa
+    c. Si, ya que dentro del mismo ámbito (archivo) se encuentra definido "prop" de dos tipos diferentes
