@@ -1,0 +1,21 @@
+1.
+    S --> aT | bT | cT
+    T --> dT | dU
+    U --> a
+2.
+    -0 
+        --> a, b, c --> 1 --> d --> +2(d ciclo)
+      |  A  |  B  |  C  |  D
+   -0 |  1  |  1  |  1  |  -
+    1 |  -  |  -  |  -  |  2
+   +2 |  -  |  -  |  -  |  2
+3.
+    S --> aaSd | aaaTd
+    T --> bbUccc
+    U --> bbUc | Ɛ
+4.
+    [A-Z]{3}[0-9]{4, 8}[a-z]{0,2}
+5.
+    a. 46 --> 56
+    b. Toda la ejecución del programa
+    c. No, ya que, si bien se declara como int en ámbito de archivo, en ámbito de bloque (do while), puede ser double sin problema.
